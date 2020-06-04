@@ -1,11 +1,12 @@
 {
-  "name": "netlify-plugin-onboarding",
+  "name": "netlify-plugin-onboarding-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "execa": "^4.0.2",
+    "netlify-plugin-onboarding": "^1.0.0",
     "node-fetch": "^2.6.0",
     "toml": "^3.0.0"
   },
@@ -16,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jlengstorf/netlify-plugin-onboarding.git"
+    "url": "git+https://github.com/jlengstorf/onboarding-demo-site.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jlengstorf/netlify-plugin-onboarding/issues"
+    "url": "https://github.com/jlengstorf/onboarding-demo-site/issues"
   },
-  "homepage": "https://github.com/jlengstorf/netlify-plugin-onboarding#readme"
+  "homepage": "https://github.com/jlengstorf/onboarding-demo-site#readme"
 }
