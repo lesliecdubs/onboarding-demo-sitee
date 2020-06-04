@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build"
-  publish = "site/public"
+  command = "npm run maybe-build"
+  publish = "public"
 
 [[plugins]]
-  package = "../netlify-plugin-onboarding"
+  package = "netlify-plugin-onboarding"
 
 [template.environment]
   GITHUB_USERNAME = "Your GitHub Username (e.g. @jlengstorf)"
